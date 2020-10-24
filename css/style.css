@@ -1,0 +1,365 @@
+/* CSS 애니메이션 정의 */
+
+.background-img {
+	width: 100%;
+	height: 100%;
+}
+
+.fullsize-img {
+	width: 52.3%;
+	height: 94%;
+	margin-top: 2%;
+	margin-left: 21.5%;
+	position: absolute;
+
+	animation-name: fullsize-img;
+	animation-duration: 4s;
+}
+
+.tree1 {
+	width: 13%;
+	height: 22%;
+	margin-left: 21.5%;
+	margin-top: 26.43%;
+	position: absolute;
+
+	animation-name: tree1;
+	animation-duration: 0.25s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.tree1_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 33%;
+	margin-top: 25%;
+	position: absolute;
+
+	animation-name: tree1_speak;
+	animation-duration: 0.25s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.tree2 {
+	width: 13%;
+	height: 22%;
+	margin-left: 61.2%;
+	margin-top: 25.8%;
+	position: absolute;
+
+	animation-name: tree2;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.tree2_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 58%;
+	margin-top: 23%;
+	position: absolute;
+
+	animation-name: tree2_speak;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;	
+
+	display: none;
+}
+
+.bike {
+	width: 4.6%;
+	height: 4%;
+	margin-left: 36%;
+	margin-top: 40%;
+	position: absolute;
+
+	animation-name: bike;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.boat {
+	width: 49.6%;
+	height: 24%;
+	margin-left: 22.7%;
+	margin-top: 40%;
+	position: absolute;
+
+	animation-name: boat;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.boat_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 31%;
+	margin-top: 35%;
+	position: absolute;
+	
+	animation-name: boat_speak;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud1 {
+	width: 16%;
+	height: 15%;
+	margin-left: 22.8%;
+	margin-top: 8.5%;
+	position: absolute;
+
+	animation-name: cloud1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud1_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 26%;
+	margin-top: 16%;
+	position: absolute;
+
+	animation-name: cloud1_speak;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud2 {
+	width: 10%;
+	height: 12%;
+	margin-left: 41.4%;
+	margin-top: 14.6%;
+	position: absolute;
+
+	animation-name: cloud2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud2_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 38%;
+	margin-top: 10%;
+	position: absolute;
+
+	animation-name: cloud2_speak;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud3 {
+	width: 18%;
+	height: 22%;
+	margin-left: 55.5%;
+	margin-top: 5%;
+	position: absolute;
+
+	animation-name: cloud3;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+.cloud3_speak {
+	width: 7.5%;
+	height: 11%;
+	margin-left: 55%;
+	margin-top: 17%;
+	position: absolute;
+
+	animation-name: cloud3_speak;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	display: none;
+}
+
+@-webkit-keyframes fullsize-img {
+	from {
+		margin-top: -800px;
+	}
+
+	to {
+		width: 52.3%;
+		height: 94%;
+		margin-top: 25px;
+		margin-left: 21.5%;
+		position: absolute;
+		border: 0px;
+	}
+}
+
+
+@-webkit-keyframes tree1 {
+	0% {
+		width: 13%;
+		height: 22%;
+	}
+	
+	100% {
+		width: 13.5%;
+		height: 22.5%;
+	}
+}
+
+@-webkit-keyframes tree1_speak {
+	from {
+		margin-left: 33%;
+	}
+	
+	to {
+		margin-left: 33.5%;
+	}
+}
+
+@-webkit-keyframes tree2 {
+	from {
+		width: 13%;
+		height: 22%;
+	}
+	
+	to {
+		width: 13.2%;
+		height: 22.2%;
+	}
+}
+
+@-webkit-keyframes tree2_speak {
+	from {
+		margin-left: 58%;
+	}
+	
+	to {
+		margin-left: 58.2%;
+	}
+}
+
+
+
+@-webkit-keyframes cloud1 {
+	from {
+		margin-top: 8.5%
+	}
+
+	to {
+		margin-top: 9.5%;
+	}
+}
+
+@-webkit-keyframes cloud1_speak {
+	from {
+		margin-top: 16%;
+	}
+
+	to {
+		margin-top: 17%;
+	}
+}
+
+@-webkit-keyframes cloud2 {
+	from {
+		margin-top: 14.6%
+	}
+
+	to {
+		margin-top: 14.9%;
+	}
+}
+
+@-webkit-keyframes cloud2_speak {
+	from {
+		margin-top: 10%
+	}
+
+	to {
+		margin-top: 10.3%;
+	}
+}
+
+
+@-webkit-keyframes cloud3 {
+	from {
+		margin-top: 5%
+	}
+
+	to {
+		margin-top: 6%;
+	}
+}
+
+@-webkit-keyframes cloud3_speak {
+	from {
+		margin-top: 17%
+	}
+
+	to {
+		margin-top: 18%;
+	}
+}
+
+@-webkit-keyframes boat_speak {
+from {
+		margin-top: 35%;
+	}
+
+	to {
+		margin-top: 35.5%;
+	}
+}
+
+@-webkit-keyframes boat {
+	from {
+		margin-top: 40%;
+	}
+
+	to {
+		margin-top: 40.5%;
+	}
+}
+
+@-webkit-keyframes bike {
+	from {
+		margin-left: 36%
+	}
+
+	to {
+		margin-left: 63%;
+	}
+}
